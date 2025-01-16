@@ -1,0 +1,150 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 10px;
+    display: flex;
+    background-image: url("bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form {
+    width: 100%;
+    max-width: 435px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 41px 30px;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.login_option {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option {
+    width: calc(50% - 12px);
+}
+
+.option a {
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #F8F8FB;
+    border: 1px solid #DADAF2;
+    border-radius: 5px;
+    margin: 34px 0 24px 0;
+    text-decoration: none;
+    color: #171645;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.option a:hover {
+    background: #ededf5;
+}
+
+.option a img {
+    max-width: 25px;
+}
+
+p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.separator {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    height: 57px;
+    border: 1px solid #DADAF2;
+    border-radius: 5px;
+    outline: none;
+    background: #F8F8FB;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-bottom: 25px;
+    transition: 0.2s ease;
+}
+
+input:focus {
+    border-color: #626cd6;
+}
+
+.password_title {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.input_box {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #626cd6;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form button {
+    width: 100%;
+    height: 56px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #626CD6;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 28px;
+    transition: 0.3s ease;
+}
+
+sign_up{
+    
+    font-size: 14px;
+}
+
+button:hover {
+    background: #4954d0;
+}

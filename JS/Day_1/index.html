@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Styles/index.css" />
+
+</head>
+
+<body>
+    <marquee class="scrollBar">EXTRA 5% DISCOUNT AND FREE SHIPPING ON ALL ONLINE PAYMENTS.</marquee>
+
+    <!-- NavBar -->
+    <div class="navbar">
+        <!-- <img class="logo" src="logo.png" width="25px"> -->
+        <a href="#Women">Women</a>
+
+        <a href="#Men">Men</a>
+        <a href="#Kids">Kids</a>
+        <a href="#Motersports">Motersports</a>
+        <a href="#Collaboration">Collaboration</a>
+        <a href="#Sports">Sports</a>
+        <a href="#Outlets">Outlets</a>
+        <select id="categories" class="styled-select">
+            <option value="" disabled selected>Select a category</option>
+        </select>
+        <div class="search-container">
+            <form>
+                <input class="search" id="search-item" type="text" placeholder="Search.." name="search"
+                    oninput="search()">
+                <i class="fa fa-search"></i>
+            </form>
+        </div>
+
+        <div class="icons">
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-user" id="logoutbutton"></i>
+        </div>
+    </div>
+
+    <!-- Get User Info -->
+    <h2 id="welcomemessage">Home </h2>
+    <button id="logoutbutton" class="hidden">Log out</button>
+
+
+    <!-- Product List -->
+    <div class="container" id="product-list">
+        <div class="products" id="products">
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Footer Logo -->
+            <!-- <div class="footer-logo">
+                <img src="google.png" alt="Logo" width="120px" />
+            </div> -->
+
+            <!-- Footer Links -->
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Social Media</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Your Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./Utils/validation-Index.js"></script>
+
+</body>
+
+</html>

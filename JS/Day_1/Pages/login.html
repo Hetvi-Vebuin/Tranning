@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Styles/login.css" />
+</head>
+
+<body>
+    <div class="login_form">
+        <form action="../index.html" method="post">
+            <div class="img_logo"></div>
+            <h3>Log in with</h3>
+
+            <div class="login_option">
+
+                <!-- google -->
+                <div class="option">
+                    <a href="https://www.google.co.in/">
+                        <img src="../Assets/google.png" alt="Google" />
+                        <span>Google</span>
+                    </a>
+                </div>
+
+                <!-- apple -->
+                <div class="option">
+                    <a href="https://www.apple.co.in/">
+                        <img src="../Assets/apple.png" alt="Apple" />
+                        <span>Apple</span>
+                    </a>
+                </div>
+            </div>
+
+            <p class="separator">
+                <span>or</span>
+            </p>
+
+            <div class="input_box">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="john@gmail.com" />
+            </div>
+            <div class="input_box">
+                <div class="password_title">
+                    <label for="password">Password</label>
+                    <a href="#">Forgot ?</a>
+                </div>
+                <div class="password_container">
+                    <input type="password" name="password" id="password" placeholder="" />
+                </div>
+            </div>
+
+            <label class="checkbox-rem">
+                <input type="checkbox" name="remember"> Remember Me
+            </label>
+
+            <button type="submit">Log In</button>
+
+            <p class="sign_up">Want to create new account? <a href="../Pages/signup.html">Click here</a></p>
+        </form>
+    </div>
+    <script src="../Utils/validation-Login.js"></script>
+</body>
+
+</html>
